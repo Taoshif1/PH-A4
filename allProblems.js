@@ -1,3 +1,5 @@
+// PROBLEM 1
+
 function totalFine( fare ) {
     if(typeof fare !== 'number' || fare <= 0){
         return "Invalid";
@@ -9,5 +11,17 @@ function totalFine( fare ) {
 
 }
 
-fine = totalFine( 200 );
-console.log(fine);
+
+// PROBLEM 2
+
+
+// PROBLEM 3
+
+
+
+// PROBLEM 4
+
+
+
+
+// PROBLEM 5
