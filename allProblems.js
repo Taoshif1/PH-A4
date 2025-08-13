@@ -11,9 +11,17 @@ function totalFine( fare ) {
 
 }
 
-
 // PROBLEM 2
 
+function  onlyCharacter( str ) {
+    if (typeof str !== 'string') {
+        return "Invalid";
+    }else{
+        let noSpaceCap = str.replaceAll(" ", "").toUpperCase();
+        // let noSpaceCapitalized = str.replace(/\s+/g, "").toUpperCase();
+        return noSpaceCap;
+    }
+}
 
 // PROBLEM 3
 
